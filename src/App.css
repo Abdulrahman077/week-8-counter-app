@@ -1,0 +1,48 @@
+.counter-container {
+  text-align: center;
+  margin: 100px auto;
+  padding: 30px;
+  max-width: 400px;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+}
+
+.counter-value {
+  font-size: 50px;
+  margin: 25px 0;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.increment {
+  background-color: green;
+  color: white;
+}
+
+.decrement {
+  background-color: orange;
+  color: white;
+}
+
+.reset {
+  background-color: red;
+  color: white;
+}
+
+.minimum-message {
+  color: red;
+  margin-top: 20px;
+}
